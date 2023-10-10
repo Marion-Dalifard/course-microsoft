@@ -6,7 +6,7 @@ namespace Leonardo.Web.Controllers;
 [Route("[controller]")] 
 public class FibonacciController : ControllerBase 
 { 
-    private readonly Fibonacci _fibonacci; 
+    private readonly Fibonacci _fibonacci;
     public FibonacciController(Fibonacci fibonacci) 
     { 
         _fibonacci = fibonacci; 
